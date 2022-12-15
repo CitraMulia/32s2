@@ -1,0 +1,11 @@
+{
+  "name": "TEST",
+  "version": "GOLDHEN",
+    "home_assistant_domain": "slim_player",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S2",
+      "parts": [{ "path": "32s2.bin", "offset": 0 }]
+    }
+  ]
+}
